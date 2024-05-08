@@ -1,3 +1,4 @@
+play = "yes"
 score = 0
 print("Hello")
 #Question of User's Name and the code remembering the answer
@@ -17,8 +18,15 @@ else:
     print("Wrong answer")
     print("The correct answer was the color Blue")
 
+while play = "yes":
+    question = "Are you Hungry?"
+    a = "Yes"
+    b = "Maybe"
+    c = "No"
+
 if answer == " Blue":
     score =+ 100
+play = input("Do you want to play again?")
 
 
 #Ending the Quiz
