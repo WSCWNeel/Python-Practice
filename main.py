@@ -1,5 +1,6 @@
+play = "yes"
 score = 0
-print ("Hello")
+print("Hello")
 #Question of User's Name and the code remembering the answer
 name= input("What is your name?")
 #Greeting the User and introducing the quiz
