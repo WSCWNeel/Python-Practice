@@ -1,4 +1,3 @@
-play = "yes"
 score = 0
 print("Hello")
 #Question of User's Name and the code remembering the answer
@@ -20,6 +19,8 @@ else:
 
 if answer == " Blue":
     score =+ 100
+
+
 #Ending the Quiz
 print("Your final score is", score)
 print("Thank you for doing this quiz and goodbye")
