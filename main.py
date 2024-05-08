@@ -18,7 +18,7 @@ else:
     print("Wrong answer")
     print("The correct answer was the color Blue")
 
-while play = "yes":
+while play == "yes":
     question = "Are you Hungry?"
     a = "Yes"
     b = "Maybe"
