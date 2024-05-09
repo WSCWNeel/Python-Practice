@@ -18,11 +18,9 @@ else:
     print("Wrong answer")
     print("The correct answer was the color Blue")
 
-while play == "yes":
-    question = "Are you Hungry?"
-    a = "Yes"
-    b = "Maybe"
-    c = "No"
+question_prompts = [
+    "How hungry are you?/n(a) Very Hungry/n(b) Maybe Hungry/n(c) Not Hungry"
+]
 
 if answer == " Blue":
     score =+ 100
