@@ -1,4 +1,4 @@
-play = "yes"
+playGame = "True"
 score = 0
 print("Hello")
 #Question of User's Name and the code remembering the answer
@@ -24,12 +24,15 @@ question_prompts = [
 
 if answer == " Blue":
     score =+ 100
-player_input = input("Do you want to try again?")
-
-if player_input == "yes":
-
-break
-
 #Ending the Quiz
+
 print("Your final score is", score)
 print("Thank you for doing this quiz and goodbye")
+
+playGame = input("Do you want to try again?")
+
+if:
+    playGame == "True"
+    
+else:
+    playGame = "False"
