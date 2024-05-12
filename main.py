@@ -24,8 +24,11 @@ question_prompts = [
 
 if answer == " Blue":
     score =+ 100
-play = input("Do you want to play again?")
+player_input = input("Do you want to try again?")
 
+if player_input == "yes":
+
+break
 
 #Ending the Quiz
 print("Your final score is", score)
