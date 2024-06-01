@@ -7,7 +7,7 @@ def intro():
     name = input("What is your name?")
 
     print("Welcome to the quiz", name)
-    print("This quiz is about guessing the top 10 most largest animals")
+    print("This quiz is about guessing the top 10 most largest animals(once you're done with the game type a wrong answer)")
 
 def getLives():
         while True:
@@ -39,7 +39,7 @@ intro()
 lives = getLives()
 score = 0
 while lives > 0:
-    answer = input("What is the top 10 largest animals in the world?:/n").lower()
+    answer = input("What is the top 10 largest animals in the world?").lower()
 
     if inList(answer, LARGEST_ANIMALS_ANSWERS):
          if inList(answer, guesses):
