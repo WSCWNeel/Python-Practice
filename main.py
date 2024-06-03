@@ -72,12 +72,10 @@ else:
     score =+ 0
 
 #Code for ending the quiz as well...
-if playGame == input("Do you want to try again?"):
-
 #Ending the Quiz
-
- if playGame == True:
-    print("Restart the quiz to do the quiz again.")   
+playGame = input("Do you want to try again?")
+if playGame == " Yes":
+    print("Restart the quiz to do the quiz again.")  
 else:
     print("Your final score is", score)
     print("Thank you for doing this quiz and goodbye")
